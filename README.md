@@ -21,7 +21,7 @@
   ```zsh
   yay -S hyprland-git
   ```
-
+- For Dependencies, install in Manual [(Manual Build Hyperland)](https://wiki.hyprland.org/Getting-Started/Installation/)
 ### Base setups 💻:
 
 - Install waybar, Rofi, Dunst, kitty terminal, swaybg, swaylock-fancy, swayidle, pamixer, light, Brillo:
