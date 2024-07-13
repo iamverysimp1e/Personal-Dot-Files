@@ -27,7 +27,7 @@
 - Install waybar, Rofi, Dunst, kitty terminal, swaybg, swaylock-fancy, swayidle, pamixer, light, Brillo:
 
 ```
-yay -S waybar-hyprland rofi dunst kitty swaybg swaylock-fancy-git swayidle pamixer light brillo
+yay -S waybar rofi dunst kitty swaybg swaylock-fancy-git swayidle pamixer light brillo
 ```
 
 ### Necessary Font 🔑:
