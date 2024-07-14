@@ -60,6 +60,8 @@ run_cmd() {
       mpc -q pause
       amixer set Master mute
       systemctl suspend
+      swaylock-fancy
+
     elif [[ $1 == '--logout' ]]; then
       hyprctl dispatch exit 1
       #if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
