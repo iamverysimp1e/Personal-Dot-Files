@@ -32,33 +32,32 @@
     "clock": {
         "format": "<span color='#bf616a'> </span>{:%a %b %d}",
         "format-alt": "<span color='#bf616a'> </span>{:%I:%M %p}",
-        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
     "cpu": {
       "interval": 10,
       "format": " {}%",
       "max-length": 10,
-      "on-click": "",
+      "on-click": ""
     },
     "memory": {
         "interval": 30,
         "format": " {}%",
         "format-alt":" {used:0.1f}G",
-        "max-length": 10,
+        "max-length": 10
     },
     "backlight": {
         "device": "DP-1",
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
-        "on-click": "",
+        "on-click": ""
     },
     "network": {
         "format-wifi": "直 {signalStrength}%",
         "format-ethernet": " wired",
         "format-disconnected": "睊",
-        "on-click": "bash ~/.config/waybar/scripts/rofi-wifi-menu.sh",
-        "format-disconnected": "Disconnected  ",
+        "on-click": "bash ~/.config/waybar/scripts/rofi-wifi-menu.sh"
     },
 
     "pulseaudio": {
@@ -80,7 +79,7 @@
 
     "bluetooth": {
         "on-click": "~/.config/waybar/scripts/rofi-bluetooth &",
-        "format": " {status}",
+        "format": " {status}"
     },
 
     "battery": {
@@ -99,7 +98,7 @@
       "format-plugged": "  {capacity}%",
       "format-alt": "{icon} {time}",
       "format-full": "  {capacity}%",
-      "format-icons": [" ", " ", " ", " ", " "],
+      "format-icons": [" ", " ", " ", " ", " "]
     },
     "custom/weather": {
       "exec": "python3 ~/.config/waybar/scripts/weather.py",
@@ -114,7 +113,7 @@
     "return-type": "json",
     "on-click": "playerctl play-pause",
     "on-double-click-right": "playerctl next",
-    "on-scroll-down": "playerctl previous",
+    "on-scroll-down": "playerctl previous"
     },
     "custom/power-menu": {
         "format": " <span color='#6a92d7'>⏻ </span>",
@@ -122,6 +121,6 @@
     },
     "custom/launcher": {
         "format": " <span color='#6a92d7'> </span>",
-        "on-click": "rofi -show drun",
-    },
+        "on-click": "rofi -show drun"
+    }
 }
