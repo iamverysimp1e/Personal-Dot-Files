@@ -22,7 +22,7 @@
   yay -S hyprland-git
   ```
 
-- For Dependencies, install in Manual [(Manual Build Hyperland)](https://wiki.hyprland.org/Getting-Started/Installation/)
+- For all dependencies, install in Manual [(Manual Build Hyperland)](https://wiki.hyprland.org/Getting-Started/Installation/)
 
 ### Base setups 💻:
 
