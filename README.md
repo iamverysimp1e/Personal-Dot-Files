@@ -22,12 +22,14 @@
   yay -S hyprland-git
   ```
 
+- For all dependencies, install in Manual [(Manual Build Hyperland)](https://wiki.hyprland.org/Getting-Started/Installation/)
+
 ### Base setups 💻:
 
 - Install waybar, Rofi, Dunst, kitty terminal, swaybg, swaylock-fancy, swayidle, pamixer, light, Brillo:
 
 ```
-yay -S waybar-hyprland rofi dunst kitty swaybg swaylock-fancy-git swayidle pamixer light brillo
+yay -S waybar rofi dunst kitty swaybg swaylock-fancy-git swayidle pamixer light brillo brightnessctl
 ```
 
 ### Necessary Font 🔑:
